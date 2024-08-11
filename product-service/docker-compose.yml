@@ -11,3 +11,4 @@ services:
       MONGO_INITDB_DATABASE: product-service
     volumes:
       - ./data:/data/db
+
