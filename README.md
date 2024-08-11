@@ -26,7 +26,7 @@ I’ve used a bunch of technologies that I’m particularly interested in. Here�
 
 
 ## Application Architecture
-![image](https://github.com/user-attachments/assets/d4ef38bd-8ae5-4cc7-9ac5-7a8e5ec3c969)
+![image](https://github.com/akaza21/SpringBoot-Microservices/blob/master/screenshots/Screenshot%202024-08-11%20093322.png)
 
 ## For the frontend
 
@@ -107,3 +107,4 @@ To access the Grafana dashboards, you need to port-forward the grafana service t
 ```shell
 kubectl port-forward svc/grafana 3000:3000
 ```
+![image](https://github.com/akaza21/SpringBoot-Microservices/blob/master/screenshots/Screenshot%202024-08-09%20010507.png)
