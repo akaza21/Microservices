@@ -14,21 +14,23 @@ This project is composed of several microservices, each designed to handle a spe
 
 I’ve used a bunch of technologies that I’m particularly interested in. Here’s what powers this project:
 
-- Spring Boot: The backbone of the microservices, providing all the essential features for building robust and scalable applications.
-- Mongo DB: Handling data storage for some of the services, especially where flexibility and scalability are crucial.
-- MySQL: For relational data storage, mainly used by the Inventory Service.
-- Kafka: Messaging between services, ensuring that communication is efficient and resilient.
-- Keycloak: Managing authentication and authorization, centralizing the security aspects of the system.
-- Test Containers with Wiremock:  For testing, allowing me to simulate different environments and ensure the services work as expected.
-- Grafana Stack: Monitoring the whole system, with Prometheus for metrics, Loki for logs, and Tempo for tracing. It’s all about keeping an eye on the health of the microservices.
-- Resilience4j: Implementing the circuit breaker pattern to handle faults gracefully and maintain system stability.
-- Kubernetes: For orchestrating the deployment of services, managing the complexity of distributed systems, and ensuring everything runs smoothly.
+- <h3>Spring Boot</h3>
+The backbone of the microservices, providing all the essential features for building robust and scalable applications.
+- <h3>Mongo DB</h3>
+Handling data storage for some of the services, especially where flexibility and scalability are crucial.
+- <h3>MySQL</h3>  For relational data storage, mainly used by the Inventory Service.
+- <h3>Kafka</h3>Messaging between services, ensuring that communication is efficient and resilient.
+- <h3>Keycloak</h3>Managing authentication and authorization, centralizing the security aspects of the system.
+- <h3>Test Containers with Wiremock</h3>  For testing, allowing me to simulate different environments and ensure the services work as expected.
+- <h3>Grafana Stack</h3> Monitoring the whole system, with Prometheus for metrics, Loki for logs, and Tempo for tracing. It’s all about keeping an eye on the health of the microservices.
+- <h3>Resilience4j</h3> Implementing the circuit breaker pattern to handle faults gracefully and maintain system stability.
+- <h3>Kubernetes</h3>For orchestrating the deployment of services, managing the complexity of distributed systems, and ensuring everything runs smoothly.
 
 
 ## Application Architecture
 ![image](https://github.com/akaza21/SpringBoot-Microservices/blob/master/screenshots/Screenshot%202024-08-11%20093322.png)
 
-## For the frontend
+## For the Frontend
 
 Make sure you have the following installed on your machine:
 
@@ -43,7 +45,7 @@ cd frontend
 npm install
 npm run start
 ```
-## Building the backend services
+## Building the Backend Services
 
 Run the following command to build and package the backend services into a docker container
 
@@ -53,7 +55,7 @@ mvn spring-boot:build-image -DdockerPassword=<your-docker-account-password>
 
 The above command will build and package the services into a docker container and push it to your docker hub account.
 
-## For the backend services
+## For the Backend Services
 
 Make sure you have the following installed on your machine:
 
