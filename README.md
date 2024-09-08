@@ -26,7 +26,7 @@ I’ve used a bunch of technologies that I’m particularly interested in. Here�
 - <h3>Swagger</h3> Ensured comprehensive, consistent, and clear documentation of REST API endpoints for improved collaboration and integration.
 
 ## Application Architecture
-![image](https://github.com/akaza21/SpringBoot-Microservices/blob/master/screenshots/Screenshot%202024-08-11%20093322.png)
+![image](https://github.com/akaza21/SpringBoot-Microservices/blob/master/screenshots/Screenshot%202024-08-11%20221437.png)
 
 ## For the Frontend
 
